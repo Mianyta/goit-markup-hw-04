@@ -75,12 +75,10 @@ body {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
-}
-
-.header-border {
     border-bottom: 1px solid #E7E9FC;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
 
 .header-navigation {
     display: flex;
@@ -174,7 +172,7 @@ body {
 /* HERO */
 .hero {
     background-color: var(--color-navy-blue);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -182,7 +180,7 @@ body {
     padding-bottom: 188px;
     max-width: 1440px;
     margin: 0 auto;
-
+  
 }
 
 .hero-main {
@@ -345,7 +343,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 32px 16px;
+    padding: 32px 0;
     margin: 0 auto;
 
 }
@@ -387,7 +385,7 @@ body {
 .title-customers {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.1;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -403,14 +401,14 @@ body {
 }
 
 .item-icon-customers {
-    width: 168px;
+    
+    width: calc((100% - 120px) / 6);
     height: 88px;
-    border: 1px solid #8E8F99;
-    border-radius: 4px;
+    
 }
 
-.item-icon-customers:hover,
-.item-icon-customers:focus {
+.link-icon-customers:hover,
+.link-icon-customers:focus {
     border-color: #404BBF;
 }
 
@@ -421,6 +419,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
 
 }
 
@@ -442,6 +442,7 @@ body {
 
 .container-item {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-logo {
@@ -479,7 +480,7 @@ body {
 }
 
 .footer-title {
-    color: #F4F4FD;
+    color: #FFFFFF;
     width: 264px;
     margin-bottom: 16px;
     font-weight: 500;
@@ -503,7 +504,7 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: var(--color-slate);
+    background-color: #4d5ae5;
     display: flex;
     align-items: center;
     justify-content: center;
